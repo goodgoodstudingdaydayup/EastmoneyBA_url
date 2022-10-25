@@ -23,3 +23,9 @@ https://guba.eastmoney.com/default,99_3.html
 1.“股票”列为网页中被提及过的股票或者基金名称
 2.“被提及次数”列为各标的在网页中出现的次数
 3.表格以“被提及次数”列为标准，进行降序排列
+
+# 测试:test.py
+
+# 用例
+import Eastmoney_hotwords as ea
+main = ea.EastmoneyBA_url.web_get_sum(10)
